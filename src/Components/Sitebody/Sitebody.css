@@ -1,0 +1,43 @@
+
+.home-content{
+    display:flex ;
+    flex-direction: column;
+    align-items: center !important;
+    color:white;
+    top: 50%;
+    left: 20%;
+    transform: translate(0, -50%);
+    position: absolute;
+}
+
+.hc{
+     
+}
+
+.home-content P{
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.home-content button{
+    background-color: #ff1a1a;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 40px;
+	border: 3px solid white;
+	width: 150px;
+    color:white;
+}
+  
+  .background-image {
+    width: 100%;
+    height: 125vh; 
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
